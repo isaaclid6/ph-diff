@@ -1,0 +1,49 @@
+$Behavior/Name/HERCPassive=Blast Armor
+$Behavior/Tooltip/HERCPassive=Takes reduced damage.
+$Behavior/Tooltip/SwarmQueenRegenAuraTarget=Health regen greatly increased.
+$Button/Name/CripplingSlash2=Crippling Slash
+$Button/Name/Resistance=Blast Armor
+$Button/Name/TargetingDroneButton=Targeting Drone
+$Button/Tooltip/Armor=Increases armor by 1.
+$Button/Tooltip/Chaos2=<c val="FFFF00">Active</c><n/>Cost: None<n/>Cooldown: <d ref="Abil,Chaos,Cost[0].Cooldown.TimeUse"/> Seconds<n/><n/>Forces up to 10 enemies in a radius of 20 to attack their allies for 15 seconds.<n/><c val="FF0000">Does not work on Psionic.</c>
+$Button/Tooltip/Clairvoyance=For 5 seconds hostile units and projectiles in a radius of <d ref="Effect,ClairvoyanceSearchAlly2,AreaArray[0].Radius"/> are revealed, slowed by 90% and take 25% more damage.
+$Button/Tooltip/Clairvoyance2=<c val="FFFF00">Active</c><n/>Cost: <d ref="Abil,Clairvoyance,Cost[0].Vital[Energy]"/> Energy<n/>Cooldown: <d ref="Abil,Clairvoyance,Cost[0].Cooldown.TimeUse"/> Seconds<n/><n/>For 5 seconds hostile units and projectiles in a radius of <d ref="Effect,ClairvoyanceSearchAlly2,AreaArray[0].Radius"/> are revealed, slowed by 90% and take 25% more damage.
+$Button/Tooltip/CloakOnGhost=Cloaks the Ghost preventing enemy units from seeing or attacking it.<n/>While Cloaked weapon damage is increased by <c val="FFFFFF"><d ref="Behavior,GhostCloak,Modification.DamageDealtScaled[Ranged]"/></c> and attack speed by <d ref="Behavior,GhostCloak,Modification.AttackSpeedMultiplier*100-100"/>%.<n/><c val="FFFF00">A cloaked unit will only be revealed by detectors or effects.</c><n/><n/><c val="FF0000">Disables energy regeneration while active.</c>
+$Button/Tooltip/ConcentrateSpeed2=<c val="FFFF00">Active</c><n/>Cost: 25% Health<n/>Cooldown: <d ref="Abil,ConcentrateSpeed,Cost[0].Cooldown.TimeUse"/> Seconds<n/><n/>Become invulnerable and process time 200% more quickly for 10 seconds.
+$Button/Tooltip/Copycat=<c val="FFFF00">Passive</c><n/>Causes your Holograms created by Holo Transmission to copy your actions.
+$Button/Tooltip/CripplingSlash=Slash the target area causing <d ref="Effect,CripplingSlashDamage,Amount"/> damage in a radius of 1.<n/><n/>Enemies hit have their attack speed reduced by 50% and movement speed by 90% for <d ref="Behavior,CripplingSlash,Duration"/> seconds.
+$Button/Tooltip/CripplingSlash2=<c val="FFFF00">Active</c><n/>Cost: <d ref="Abil,CripplingSlash,Cost[0].Vital[Energy]"/> Energy<n/>Cooldown: <d ref="Abil,CripplingSlash,Cost[0].Cooldown.TimeUse"/> Seconds<n/><n/>Slash the target area causing <d ref="Effect,CripplingSlashDamage,Amount"/> damage in a radius of 1.<n/><n/>Enemies hit have their attack speed reduced by <d ref="Behavior,CripplingSlash,Modification.AttackSpeedMultiplier*100"/>% and movement speed by 90% for <d ref="Behavior,CripplingSlash,Duration"/> seconds.
+$Button/Tooltip/CriticalBurst=The Marine fires a concentrated burst, dealing <d ref="Effect,CriticalBurstDamage,Amount"/> damage to enemies in a straight line.
+$
+$
+$Button/Tooltip/FlashPulse=At a target allied unit enemies within a radius of 2 will be pushed back, stunned for 1 second and take <d ref="Effect,FlashPulseDamage,Amount"/> damage.
+$Button/Tooltip/FlashPulse2=<c val="FFFF00">Active</c><n/>Cost: <d ref="Abil,FlashPulse,Cost[0].Vital[Energy]"/> Energy<n/>Cooldown: None<n/><n/>At a target allied unit enemies within a radius of 2 will be pushed back, stunned for 1 second and take <d ref="Effect,FlashPulseDamage,Amount"/> damage.
+$Button/Tooltip/HoloTransmission=While moving instantly deploy a hologram, briefly cloaking the Assassin and increasing movement speed by 300%.<n/><n/>Holograms last for <d ref="Behavior,TimedLife20,Duration"/> seconds.<n/><n/><c val="FFFF00">Upgrades and stats apply to holograms.</c><n/><c val="FF0000">The Assassin cannot be controlled while in this state.</c>
+$
+$Button/Tooltip/PhotonEnhance=<c val="FFFF00">Passive</c><n/>Weapon attacks, Psionic Blast and Psionic Pulsar increase the target's damage taken from Psion by <d ref="Behavior,PhotonEnhance,DamageResponse.ModifyFraction*100-100"/>% for <d ref="Behavior,PhotonEnhance,Duration"/> seconds.<n/>This effect can stack.
+$
+$Button/Tooltip/PsionicFocus=<c val="FFFF00">Passive</c><n/>While the Assassin is in Focus Fire gain a stacking buff every 5 seconds that increases maximum energy and energy regeneration by 5% up to a maximum of 50%.<n/>Each stack lasts 60 seconds.
+$Button/Tooltip/ReflexCloak=<c val="FFFF00">Passive</c><n/>Dash cloaks and increases damage by 50% for <d ref="Behavior,ReflexCloak,Duration"/> seconds.
+$Button/Tooltip/Resistance=<c val="FFFF00">Passive</c><n/>The HERC takes reduced damage for every percent of health up to -65%.
+$Button/Tooltip/TargetingDrone=Stealth drone equipped with a rapid fire beam.<n/>Can target enemies to reduce their armor.
+$Button/Tooltip/TargetingDroneButton=Deploys a Targeting Drone with a lifespan of 60 seconds.<n/>The Targeting Drone cannot be attacked and reveals a radius of <d ref="Unit,TargetingDrone,Sight"/>, deals <d ref="Effect,InterceptorBeamDamage2,Amount"/> damage with an attack speed of <d ref="Weapon,LightBeam,Period"precision="1"/>.<n/><n/>When manually selected the Targeting Drone can apply <c val="FF0000">Target</c> to a single enemy unit.<n/><n/><c val="FF0000">Target</c> reveals enemies and reduces their armor by 15 for 30 seconds.
+$Button/Tooltip/TargetingDroneLearn=<c val="FFFF00">Active</c><n/>Cost: <d ref="Abil,TargetingDrone,Cost[0].Vital[Energy]"/> Energy<n/>Cooldown: <d ref="Abil,TargetingDrone,Cost[0].Cooldown.TimeUse"/> Seconds<n/><n/>Deploys a Targeting Drone with a lifespan of 60 seconds.<n/>The Targeting Drone cannot be attacked and reveals a radius of <d ref="Unit,TargetingDrone,Sight"/>, deals <d ref="Effect,InterceptorBeamDamage2,Amount"/> damage with an attack speed of <d ref="Weapon,LightBeam,Period"precision="1"/>.<n/><n/>When manually selected the Targeting Drone can apply <c val="FF0000">Target</c> to a single enemy unit.<n/><n/><c val="FF0000">Target</c> reveals enemies and reduces their armor by 15 for 30 seconds.
+$Button/Tooltip/TogglePerkMenu=Toggles the Perk menu.
+$Button/Tooltip/TossGrenadeLearn=<c val="FFFF00">Active</c><n/>Cost: None<n/>Cooldown: <c val="00FF80">Can hold up to 2 grenades, recharges grenades every <d ref="Abil,TossGrenade,Cost[0].Charge.TimeUse"/> seconds.</c><n/><n/>Toss a grenade that knocks back all enemies in a radius of 2, dealing <d ref="Effect,TossGrenadeDamage,Amount"/> damage and causing Stun.
+$Param/Expression/11E9FF18=<s val="AiurChefCenterSize20Bold"><c val="BFBFFF">Perk Tier <c val="ffffff">~A~</c> has been unlocked! Press B to select a perk.</c>
+$Param/Expression/1D7F1B48=You have unlocked a new tier of Perks!<n/>Access this menu by pressing B.
+$Param/Expression/4A625182=You have unlocked a new tier of Perks!<n/>Access this menu by pressing B.
+$Param/Expression/9AC14007=You have unlocked a new tier of Perks!<n/>Access this menu by pressing B.
+$Param/Expression/C27A691E=You have unlocked a new tier of Perks!<n/>Access this menu by pressing B.
+$Param/Expression/CA9F6EAB=You have unlocked a new tier of Perks!<n/>Access this menu by pressing B.
+$Param/Value/195F1097=<s val="ABChoiceRewardsTitle">No Scope</s><n/>Cost: 10 Hero Points<n/><c val="00FF40">Cloak attack speed bonus increased by 50%.</c><n/><c val="FF0000">Cloak reduces attack range by 5.</c>
+$Param/Value/208FB5B6=<s val="AiurChefCenterSize20Bold"><c val="0080C0">+50<IMG path="Assets\Textures\icon-mineral-nobg.dds" height="15" width="15"/></c></s>
+$Param/Value/344E89C4=<s val="TechDescription"><c val="ffcc00">Hustle</c><n/><n/>Blast Armor also increases attack speed by 1% per stack.
+$Param/Value/39DB36D9=a
+$Param/Value/85E48F9D=Allocate hero points make alterations to abilities.<n/><n/>Hero points are not lost upon allocation and will be reset each game.<n/><c val="FF0000">Currently only available to Marine Medic Firebat Ghost Reaper Psion and SCV.</c>
+$Param/Value/8DDBFBE6=<s val="TechDescription"><c val="ffcc00">Grapple Burst</c><n/><n/>Grapple increases attack speed by 100% for 1.5 seconds.
+$Param/Value/91369A7B=Hero Points
+$Param/Value/9C898BF0=<s val="TechDescription"><c val="ffcc00">Big Guy</c><n/><n/>Kinetic Field +5 health regeneration per stack.<n/>When a stack of Kinetic Field expires any applications of Contaminate, Plague and Fungal Growth are removed.
+$Param/Value/D210D5E3=<s val="ModRightSize64">LEVEL UP</s>
+$Param/Value/E3422A5F=<s val="ABChoiceRewardsTitle">Pinpoint Focus</s><n/>Cost: 10 Hero Points<n/><c val="00FF40">Psionic Blast damage +200%.</c><n/><c val="FF0000">Decreases the radius of Psionic Blast by 90%.</c>
+$Param/Value/F9DBDCFD=<s val="TechDescription"><c val="22ff22">Hero Perk Picked</c>: <c val="ffc000">Grapple Burst</c></s>
